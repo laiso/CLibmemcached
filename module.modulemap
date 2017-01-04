@@ -1,0 +1,5 @@
+module CLibmemcached [system] {
+  header "memcached.h"
+  link "memcached"
+  export *
+}
